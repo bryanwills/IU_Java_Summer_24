@@ -31,8 +31,8 @@ public class Q1ExercisingActivities {
         double poundsLost = (double) totalCalories / CALORIES_PER_POUND;
 
         // Display the results in calroies and pounds
-        System.out.printf("You burned a total of %d calories.\n", totalCalories);
-        System.out.printf("That's approximately %.2f pounds lost!\n", poundsLost);
+        System.out.printf("You burned a total of %d calorie from all activities!.\n", totalCalories);
+        System.out.printf("That's approximately %.2f pounds lost! Keep it up! \n", poundsLost);
 
         // Close the scanner
         scanner.close();
