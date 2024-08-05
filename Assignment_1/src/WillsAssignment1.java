@@ -1,9 +1,11 @@
+// import scanning service
 import java.util.Scanner;
 
+// define a class as provided in the Assignment
 public class Q1ExercisingActivities {
 
     public static void main(String[] args) {
-        // Constants for calories burned per hour for each activity
+        // Constants for calories burned per hour for each activity provided in the Assignment
         final int CALORIES_BURNED_BICYCLING = 200;
         final int CALORIES_BURNED_JOGGING = 475;
         final int CALORIES_BURNED_SWIMMING = 275;
@@ -30,11 +32,11 @@ public class Q1ExercisingActivities {
         // Calculate the pounds lost
         double poundsLost = (double) totalCalories / CALORIES_PER_POUND;
 
-        // Display the results
+        // Display the results to the terminal window
         System.out.printf("You burned a total of %d calories.\n", totalCalories);
         System.out.printf("That's approximately %.2f pounds lost!\n", poundsLost);
 
-        // Close the scanner
+        // Close the scanner and program quits
         scanner.close();
     }
 }
